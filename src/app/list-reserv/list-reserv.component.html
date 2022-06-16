@@ -1,0 +1,28 @@
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">id</th>
+      <th scope="col">N chambre</th>
+      <th scope="col">Debut</th>
+      <th scope="col">Fin</th>
+      <th scope="col">n Nuits</th>
+      <th scope="col">Type</th>
+      <th scope="col">fumer</th>
+
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let reserv of reservations; let i=index">
+        <td>{{reserv.id}}</td>
+        <td>{{reserv.nchambre}}</td>
+        <td>{{reserv.debuts}}</td>
+        <td>{{reserv.fins}}</td>
+        <td>{{reserv.type}}</td>
+        <td>{{reserv.fumer}}</td>
+        <td>
+          <span (click)="removeReserv(reserv)" class="btn btn-danger">Delete</span> &nbsp;
+          <span routerLink="/edit/{{reserv.id}}" class="btn btn-primary">Update</span>
+        </td>
+    </tr>
+  </tbody>
+</table>

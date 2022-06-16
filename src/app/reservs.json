@@ -1,0 +1,47 @@
+[
+    {
+        "id": 10,
+        "nchambre": 2,
+        "debuts": "02-06-2022",
+        "fins" : "10-06-2022",
+        "nbnuits" : 8,
+        "type" : "Double",
+        "fumer" : "no"
+    },
+    {
+        "id": 12,
+        "nchambre": 1,
+        "debuts": "02-06-2022",
+        "fins" : "08-06-2022",
+        "nbnuits" : 6,
+        "type" : "Single",
+        "fumer" : "yes"
+    },
+    {
+        "id": 14,
+        "nchambre": 3,
+        "debuts": "08-06-2022",
+        "fins" : "15-06-2022",
+        "nbnuits" : 7,
+        "type" : "Familly",
+        "fumer" : "no"
+    },
+    {
+        "id": 16,
+        "nchambre": 2,
+        "debuts": "06-06-2022",
+        "fins" : "10-06-2022",
+        "nbnuits" : 4,
+        "type" : "Double",
+        "fumer" : "no"
+    },
+    {
+        "id": 18,
+        "nchambre": 3,
+        "debuts": "10-06-2022",
+        "fins" : "16-06-2022",
+        "nbnuits" : 6,
+        "type" : "Familly",
+        "fumer" : "no"
+    }
+]

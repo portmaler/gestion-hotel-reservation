@@ -1,0 +1,50 @@
+<form  (ngSubmit)="onSubmit()">
+  <div class="mb-3">
+    <label>Id Client</label>
+    <input type="text"  class="form-control" [(ngModel)]="id" >
+  </div>
+
+  <div class="mb-3">
+    <label>Nombre des chambre</label>
+    <input type="text"  [(ngModel)]="nchambre" class="form-control" >
+  </div>
+
+  <div class="mb-3">
+    <label>Debut de sejour</label>
+    <input type="date"  class="debuts"  >
+  </div>
+
+
+
+  <div class="mb-3">
+    <label>Fin de sejour</label>
+    <input type="date" class="fins">
+  </div>
+
+  <div class="mb-3">
+    <label>Nombre de nuits</label>
+    <input type="text" class="nbnuits"  >
+  </div>
+
+  <div class="mb-3">
+    <label>Type de chambre</label>
+    <select class="form-control form-select form-select-lg mb-3"
+   [(ngModel)]="type" placeholder="type de chambre">
+    <option value="Single"> Single </option>
+    <option value="Single"> Double </option>
+    <option value="Single"> Family </option>
+    </select>
+  </div>
+
+  <div class="mb-3">
+    <label>Fumer</label>
+    <input type="text" [(ngModel)]="fumer" class="form-control" required>
+  </div>
+
+  <div class="mb-3">
+    <button type="submit" class="btn btn-primary">Create</button>
+    &nbsp; &nbsp; &nbsp;
+<button type="reset" class="btn btn-danger">Reset</button>
+  </div>
+
+</form>
